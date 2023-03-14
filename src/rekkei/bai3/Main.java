@@ -8,7 +8,7 @@ public class Main {
         num = new double[50];
         System.out.println("mảng số nguyên là : ");
         for (int i = 0; i < num.length; i++) {
-            num[i] = Math.floor(Math.random()*100);
+            num[i] = Math.floor(Math.random()*100 + 1);
         }
         System.out.println(Arrays.toString(num));
         double min = num[0];
